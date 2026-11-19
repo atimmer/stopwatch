@@ -3,6 +3,8 @@
 A plain stopwatch modelled on the iPhone one, at **https://stopwatch.24letters.com**.
 Plain HTML, CSS and JS; no build step. Hosted on GitHub Pages (`CNAME` holds the domain;
 DNS for `24letters.com` lives in Vercel: `stopwatch CNAME atimmer.github.io`).
+HTTPS is enforced; the microphone only works over HTTPS. If GitHub ever stalls on issuing the
+certificate (`https_certificate: null`), remove the custom domain, wait ~2 minutes, then add it again.
 
 ## Features
 
